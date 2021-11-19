@@ -1,0 +1,17 @@
+An overheadline has the following data:
+Span length 160m,conductor diameter 0.95cm,weight per unit length of the conductor 0.65kg/metre.Ultimate stres 4250kg/cm^2,wind pressure 40kg/cm^2 of projrcted area.Factor of safety is 5.
+ Calculate the sag
+
+Solution:
+Working Stress = Ultimate stress/safety factor = 4250/5 = 850kg/cm^2
+Area of section of  the conductor=(pi*d^2)/4 = 3.14*(0.95)^2 = 0.7084 sq.cm
+Wind pressure per unit length of the conductor= 40*0.95*10^(-2) = 0.38kg/cm
+Weight of the conductor per unit length = 0.65kg/metre
+
+The total effective weight = ( 0.65^2 + 0.38^2)^(1/2) = 0.7529 kg/metre
+
+Working tension, T = working stress * area of section of conductor  = 850 *0.7084 =  602.5 kg
+ Also,
+ c = T/W = 602.5/0.7529 = 800 m.
+ d = l^2/(8c) = 160^2/(8*800) = 4 m.
+ 
